@@ -57,7 +57,6 @@ async def add_favorite_group(user_id: int, group_name: str, group_code: str, fac
 
     await asyncio.to_thread(sync_add)
 
-
 async def get_favorite_groups(user_id: int) -> list:
     def sync_get():
         conn = sqlite3.connect('favorites.db')
