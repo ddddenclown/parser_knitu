@@ -10,7 +10,7 @@ import asyncio
 # Состояния диалога
 MAIN_MENU, FAVORITES, FACULTY, LEVEL, COURSE, GROUP, ADD_FAVORITE, DAYS_SELECTION, FAVORITE_ACTION = range(9)
 
-token_tg = "7570530720:AAHfZ2Dvat_IcUSYWtzitKAT2xUGy_Ny0Hs"
+token_tg = "your_token"
 
 FACULTY_MAP = {
     "ИХТИ": "210",
